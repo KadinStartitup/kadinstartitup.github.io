@@ -212,8 +212,7 @@ button {
     color: #3C3C3C;
     z-index: 1;
     font-size: 14px;
-    margin-top: 10px;
-    padding: 0.75rem 1.5rem;
+    margin-top: 20px;
     background-color: rgba(255, 255, 255, 0.1);
     box-shadow: 0 0 1rem rgb(255 255 255 / 10%);
 }
@@ -413,9 +412,12 @@ button {
     .location-header {
         display: none;
     }
+    .btn-sign {
+        margin-right: 72px;
+    }
     .btn-hamburger {
         display: block;
-        position: relative;
+        position: absolute;
         width: 35px;
         cursor: pointer;
         appearance: none;
@@ -423,7 +425,7 @@ button {
         outline: none;
         border: none;
         top: 18px;
-        margin-right: 20px;
+        right: 18px;
     }
     .btn-hamburger .bar,
     .btn-hamburger::after,
